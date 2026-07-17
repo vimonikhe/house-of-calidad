@@ -5,17 +5,8 @@ body {
 }
 .general {
   width: 100%;
-  animation: fadein 0.8s ease forwards;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .firstbackground {
   display: none;
 }
@@ -25,7 +16,6 @@ body {
   background-color: black;
   width: 100%;
   box-sizing: border-box;
-  animation: fadein 0.8s ease forwards;
 }
 .calidadlogo {
   height: 50px;
