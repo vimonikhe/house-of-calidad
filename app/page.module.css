@@ -72,7 +72,7 @@ body {
 .secondbackground {
   background: url("/secondbackground.jpg");
   background-size: cover;
-  height: 550px;
+  height: 600px;
   width: 100%;
   box-sizing: border-box;
   backdrop-filter: blur(12px);
@@ -124,7 +124,7 @@ body {
   text-shadow: 5px 5px 5px #8c6a1e;
 }
 .viewourwork {
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0px 40px 0px;
   padding: 20px 15px 20px 15px;
   font-size: 15px;
   background-color: black;
