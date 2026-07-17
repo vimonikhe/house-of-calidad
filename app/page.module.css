@@ -72,11 +72,12 @@ body {
 .secondbackground {
   background: url("/secondbackground.jpg");
   background-size: cover;
-  height: 450px;
+  height: 550px;
   width: 100%;
   box-sizing: border-box;
   backdrop-filter: blur(12px);
   text-align: center;
+  padding: 50px 0px 20px 0px;
 }
 .herosection {
   transform: translateY(40px);
@@ -87,7 +88,7 @@ body {
   color: rgb(233, 233, 230);
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 0px 0 30px 0;
+  padding: 0px 0 50px 0;
   word-spacing: 10;
   text-shadow: 5px 5px 5px #8c6a1e;
 }
@@ -116,7 +117,7 @@ body {
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
 }
 .fps {
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 30px 0px;
   font-size: 20px;
   color: antiquewhite;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -124,7 +125,7 @@ body {
 }
 .viewourwork {
   margin: 10px 0px 20px 0px;
-  padding: 10px 15px 10px 15px;
+  padding: 20px 15px 20px 15px;
   font-size: 15px;
   background-color: black;
   box-shadow: 0 0 8px #8c6a1e;
