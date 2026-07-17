@@ -1,0 +1,1162 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.general {
+  width: 100%;
+}
+.firstbackground {
+  display: none;
+}
+.firstbackground2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  box-sizing: border-box;
+}
+.calidadlogo {
+  height: 50px;
+  width: 100px;
+  padding: 2px 0px 2px 10px;
+  object-fit: contain;
+}
+.navbar {
+  color: #8c6a1e;
+  padding: 7px 10px 7px 0px;
+}
+.mobilemenuwrapper {
+  position: relative;
+}
+.mobilemenudropdown {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  gap: 4px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8c6a1e;
+  border-radius: 10px;
+  animation: dropdown 0.35s ease forwards;
+}
+@keyframes dropdown {
+  from {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+.home2,
+.aboutus2,
+.services2,
+.projects2,
+.contact2 {
+  color: antiquewhite;
+  text-shadow: 2px 2px 2px #8c6a1e;
+  text-decoration: none;
+  background-color: black;
+  row-gap: 1px;
+  border-radius: 10px;
+  padding: 5px 0 5px 0;
+}
+.secondbackground {
+  background: url("/secondbackground.jpg");
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  box-sizing: border-box;
+  backdrop-filter: blur(12px);
+  text-align: center;
+}
+.herosection {
+  transform: translateY(40px);
+  animation: slideup 0.8s forwards;
+  animation-delay: 0.3s;
+}
+.wedont {
+  color: rgb(233, 233, 230);
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 0 30px 0;
+  word-spacing: 10;
+  text-shadow: 5px 5px 5px #8c6a1e;
+}
+.wecraft {
+  background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 23px;
+  font-style: normal;
+  line-height: 1.5;
+  text-shadow: 2px 2px 2px #8c6a1e;
+}
+.line {
+  width: 130px;
+  height: 2px;
+  margin: 25px auto;
+  background: linear-gradient(
+    90deg,
+    #8c6a1e,
+    #d4af37,
+    #f2d16b,
+    #d4af37,
+    #8c6a1e
+  );
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+}
+.fps {
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+  color: antiquewhite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 5px 5px 5px #8c6a1e;
+}
+.viewourwork {
+  margin: 10px 0px 20px 0px;
+  padding: 10px 15px 10px 15px;
+  font-size: 15px;
+  background-color: black;
+  box-shadow: 0 0 8px #8c6a1e;
+  color: antiquewhite;
+  border: none;
+}
+.downarrow {
+  color: antiquewhite;
+  font-size: 30px;
+  animation: floatone 1.5s ease-in-out infinite;
+}
+@keyframes floatone {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.thirdbackground {
+  background-color: rgb(11, 11, 9);
+  height: 750px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px 10px 10px 30px;
+}
+.aboutsection {
+  padding: 20px 10px 20px 10px;
+}
+.aboutusheading {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 10px 0px 20px 0px;
+  text-shadow: 2px 2px 2px #8c6a1e;
+}
+.houseofcalidadintro {
+  font-size: 30;
+  color: antiquewhite;
+  text-shadow: 5px 5px 5px #8c6a1e;
+  text-align: left;
+}
+.aboutparagraph {
+  color: antiquewhite;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 0px 20px 0px;
+  line-height: 1.5;
+  text-shadow: 5px 5px 5px #8c6a1e;
+}
+.learnmore {
+  margin: 10px 0px 20px 0px;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  background-color: black;
+  box-shadow: 0 0 10px #8c6a1e;
+  color: antiquewhite;
+  border: none;
+}
+.aboutimage {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #8c6a1e;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.fourthbackground {
+  background: linear-gradient(rgb(16, 16, 14), rgb(6, 1, 1));
+  height: 3150px;
+  padding: 30px 10px 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.whatwedo {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 10px 0px 20px 10px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #8c6a1e;
+}
+.whatwedowrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0px;
+  row-gap: 35px;
+  justify-items: center;
+  align-items: center;
+}
+.brandfilmsicon,
+.commercialphotographyicon,
+.creativedirectionicon,
+.socialmediacampaignsicon,
+.dronecinematographyicon,
+.videoeditingicon {
+  color: #8c6a1e;
+  margin-bottom: 12px;
+}
+.brandfilmswrap,
+.commercialphotographywrap,
+.creativedirectionwrap,
+.socialmediacampaignswrap,
+.dronecinematographywrap,
+.videoeditingiconwrap {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+}
+.brandfilms,
+.commercialphotography,
+.creativedirection,
+.socialmediacampaigns,
+.dronecinematography,
+.videoediting {
+  color: antiquewhite;
+  line-height: 1.4;
+  font-size: 16px;
+  text-shadow: 2px 2px 2px #8c6a1e;
+  margin-top: 12px;
+}
+.ourwork {
+  padding: 60px 30px 20px 10px;
+  text-align: center;
+}
+.exploreourworks {
+  text-decoration: none;
+  background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 1px #8c6a1e;
+  text-align: center;
+}
+.workswrapper {
+  padding: 30px 0px 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 40px;
+  row-gap: 35px;
+}
+@keyframes floattwo {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.realestatework {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.4) 70%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("/realestatework.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 150px;
+  animation: floattwo 4s ease-in-out infinite;
+  position: relative;
+  box-shadow: 2px 2px 2px #8c6a1e;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+.commercialwork {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.525) 70%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("/commercialwork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 200px;
+  animation: floattwo 4s ease-in-out infinite;
+  position: relative;
+  display: block;
+  margin: 0px auto 0px auto;
+  box-shadow: 2px 2px 2px #8c6a1e;
+}
+.fashionwork {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.4) 70%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("/fashionwork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 200px;
+  animation: floattwo 4s ease-in-out infinite;
+  position: relative;
+  display: block;
+  margin: 0px auto 0px auto;
+  box-shadow: 2px 2px 2px #8c6a1e;
+}
+.brandfilmwork {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.4) 70%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("/brandfilmwork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 200px;
+  animation: floattwo 4s ease-in-out infinite;
+  position: relative;
+  display: block;
+  margin: 0px auto 0px auto;
+  box-shadow: 2px 2px 2px #8c6a1e;
+}
+.realestatework {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.4) 70%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("/realestatework.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 200px;
+  animation: floattwo 4s ease-in-out infinite;
+  position: relative;
+  display: block;
+  margin: 0px auto 0px auto;
+  box-shadow: 2px 2px 2px #8c6a1e;
+}
+.productwork {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.562) 70%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("/productwork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 200px;
+  animation: floattwo 4s ease-in-out infinite;
+  position: relative;
+  display: block;
+  margin: 0px auto 0px auto;
+  box-shadow: 2px 2px 2px #8c6a1e;
+}
+.eventswork {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.4) 70%,
+      rgb(0, 0, 0, 1) 100%
+    ),
+    url("/eventswork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 200px;
+  animation: floattwo 4s ease-in-out infinite;
+  position: relative;
+  display: block;
+  margin: 0px auto 0px auto;
+  box-shadow: 2px 2px 2px #8c6a1e;
+}
+.realestatework:hover,
+.commercialwork:hover,
+.productwork:hover,
+.eventswork:hover,
+.brandfilmwork:hover,
+.fashionwork:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.commercialtext,
+.producttext,
+.eventtext,
+.fashiontext {
+  color: antiquewhite;
+  position: absolute;
+  top: 210;
+  right: 50;
+  left: 50;
+  text-shadow: 2px 2px 2px #8c6a1e;
+}
+.realestatetext {
+  color: antiquewhite;
+  position: absolute;
+  top: 210;
+  right: 40;
+  left: 40;
+  text-shadow: 2px 2px 2px #8c6a1e;
+}
+.brandfilmtext {
+  color: antiquewhite;
+  position: absolute;
+  top: 210;
+  right: 40;
+  left: 40;
+}
+.realestateworkicon,
+.commercialworkicon,
+.productworkicon,
+.eventworkicon,
+.brandfilmworkicon,
+.fashionworkicon {
+  color: #8c6a1e;
+  position: absolute;
+  top: 160;
+  right: 70;
+  left: 70;
+}
+.trustedby {
+  background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  text-shadow: 3px 3px 3px #8c6a1e;
+}
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  padding: 10px 10px 30px 10px;
+}
+.farsadlogo,
+.dionyxlogo,
+.sujimotologo,
+.greymenlogo,
+.unicologo,
+.didilogo {
+  width: 70px;
+  height: 100px;
+  object-fit: contain;
+}
+.contactsection {
+}
+.letsworktogether {
+  background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 0px 0px 10px;
+  text-shadow: 1px 1px 1px #8c6a1e;
+}
+.letsworktogetherintro {
+  color: antiquewhite;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 2px #8c6a1e;
+  padding: 10px 0px 20px 0px;
+}
+.socialmediasection {
+  padding: 10px 0px 0px 0px;
+}
+.emaillink,
+.instagramlink,
+.telephonelink {
+  text-decoration: none;
+}
+.instagramlogo,
+.emaillogo,
+.telephonelogo {
+  color: #8c6a1e;
+}
+.emailtext,
+.telephonetext,
+.instagramtext {
+  color: antiquewhite;
+  text-shadow: 2px 2px 2px #8c6a1e;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px 10px 5px 10px;
+}
+.instagram,
+.email,
+.telephone {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 15px 0 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #242423;
+  box-shadow: 2px 2px 2px 2px#8c6a1e;
+}
+.instagram:hover,
+.email:hover,
+.telephone:hover {
+  background-color: #d4af37;
+  cursor: pointer;
+}
+.footer {
+  color: #797977;
+  background-color: #1c1c1b;
+  padding: 10px 0px 10px 10px;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+.all {
+  padding-left: 20px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .general {
+    opacity: 0;
+    animation: fadein 0.6s ease forwards;
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .firstbackground {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 30px 10px 30px;
+    background-color: black;
+    height: 80px;
+    animation-delay: 0.8s;
+  }
+  .firstbackground2 {
+    display: none;
+  }
+  .calidadlogo {
+    height: 70px;
+    width: 180px;
+    padding: 5px 0px 0px 5px;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 35px 40px 10px 10px;
+  }
+  .home,
+  .about,
+  .services,
+  .projects,
+  .contact {
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .home:hover,
+  .about:hover,
+  .services:hover,
+  .projects:hover,
+  .contact:hover {
+    text-decoration: none;
+    background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+
+  .secondbackground {
+    background: url("/secondbackground.jpg");
+    background-size: cover;
+    height: 470px;
+    backdrop-filter: blur(12px);
+    text-align: center;
+  }
+  @keyframes slideup {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .herosection {
+    transform: translateY(40px);
+    animation: slideup 0.8s forwards;
+    animation-delay: 0.3s;
+  }
+  .wedont {
+    color: rgb(233, 233, 230);
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 0 30px 0;
+    word-spacing: 10;
+    text-shadow: 5px 5px 5px #8c6a1e;
+  }
+  .wecraft {
+    background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 1.2;
+    text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .line {
+    width: 300px;
+    height: 2px;
+    margin: 25px auto;
+    background: linear-gradient(
+      90deg,
+      #8c6a1e,
+      #d4af37,
+      #f2d16b,
+      #d4af37,
+      #8c6a1e
+    );
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+  }
+  .fps {
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 5px #8c6a1e;
+  }
+  .viewourwork {
+    margin: 10px 0px 20px 0px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    background-color: black;
+    box-shadow: 0 0 8px #8c6a1e;
+    color: antiquewhite;
+    border: none;
+  }
+  .viewourwork:hover {
+    cursor: pointer;
+    background-color: #8c6a1e;
+    color: black;
+  }
+  .downarrow {
+    color: antiquewhite;
+    font-size: 30px;
+    animation: floatone 1.5s ease-in-out infinite;
+  }
+  @keyframes floatone {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .thirdbackground {
+    background-color: rgb(11, 11, 9);
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    padding: 30px 10px 10px 30px;
+  }
+  .aboutsection {
+    padding: 20px 10px 20px 40px;
+  }
+  .aboutusheading {
+    font-size: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 10px 0px 20px 0px;
+    text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .houseofcalidadintro {
+    font-size: 30;
+    color: antiquewhite;
+    text-shadow: 5px 5px 5px #8c6a1e;
+  }
+  .aboutparagraph {
+    color: antiquewhite;
+    width: 400px;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0px 20px 0px;
+    line-height: 1.5;
+    text-shadow: 5px 5px 5px #8c6a1e;
+  }
+  .learnmore {
+    margin: 10px 0px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    background-color: black;
+    box-shadow: 0 0 10px #8c6a1e;
+    color: antiquewhite;
+    border: none;
+  }
+  .learnmore:hover {
+    cursor: pointer;
+    background-color: #8c6a1e;
+    color: black;
+  }
+  .aboutimage {
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 30px 60px 20px;
+    animation: float 4s ease-in-out infinite;
+  }
+  @keyframes float {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-15px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .fourthbackground {
+    background: linear-gradient(rgb(16, 16, 14), rgb(6, 1, 1));
+    height: 1500px;
+    padding: 30px 10px 10px 30px;
+  }
+  .whatwedo {
+    font-size: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 10px 0px 20px 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .whatwedowrap {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    padding: 10px 20px 20px 50px;
+  }
+  .brandfilmsicon,
+  .commercialphotographyicon,
+  .creativedirectionicon,
+  .socialmediacampaignsicon,
+  .dronecinematographyicon,
+  .videoeditingicon {
+    color: #8c6a1e;
+  }
+  .brandfilmswrap,
+  .commercialphotographywrap,
+  .creativedirectionwrap,
+  .socialmediacampaignswrap,
+  .dronecinematographywrap,
+  .videoeditingiconwrap {
+    text-align: center;
+  }
+  .brandfilms,
+  .commercialphotography,
+  .creativedirection,
+  .socialmediacampaigns,
+  .dronecinematography,
+  .videoediting {
+    color: antiquewhite;
+    line-height: 1.5;
+    text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .ourwork {
+    padding: 50px 30px 20px 50px;
+  }
+  .exploreourworks {
+    text-decoration: none;
+    background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px #8c6a1e;
+  }
+  .exploreourworks:hover {
+    text-decoration: none;
+    background: linear-gradient(90deg, #797977, #c7c1aa, #5c5a54, #4c4940);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .workswrapper {
+    padding: 30px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .realestatework {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgb(0, 0, 0, 1) 100%
+      ),
+      url("realestatework.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    box-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .commercialwork {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.525) 70%,
+        rgb(0, 0, 0, 1) 100%
+      ),
+      url("/commercialwork.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    box-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .fashionwork {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgb(0, 0, 0, 1) 100%
+      ),
+      url("/fashionwork.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    box-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .brandfilmwork {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgb(0, 0, 0, 1) 100%
+      ),
+      url("/brandfilmwork.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    box-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .realestatework {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgb(0, 0, 0, 1) 100%
+      ),
+      url("/realestatework.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    box-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .productwork {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.562) 70%,
+        rgb(0, 0, 0, 1) 100%
+      ),
+      url("/productwork.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    box-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .eventswork {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 40%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgb(0, 0, 0, 1) 100%
+      ),
+      url("/eventswork.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    box-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .realestatework:hover,
+  .commercialwork:hover,
+  .productwork:hover,
+  .eventswork:hover,
+  .brandfilmwork:hover,
+  .fashionwork:hover {
+    opacity: 0.4;
+    cursor: pointer;
+  }
+
+  .commercialtext,
+  .producttext,
+  .eventtext,
+  .fashiontext {
+    color: antiquewhite;
+    position: absolute;
+    top: 210;
+    right: 50;
+    left: 50;
+    text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .realestatetext {
+    color: antiquewhite;
+    position: absolute;
+    top: 210;
+    right: 40;
+    left: 40;
+    text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .brandfilmtext {
+    color: antiquewhite;
+    position: absolute;
+    top: 210;
+    right: 40;
+    left: 40;
+  }
+  .realestateworkicon,
+  .commercialworkicon,
+  .productworkicon,
+  .eventworkicon,
+  .brandfilmworkicon,
+  .fashionworkicon {
+    color: #8c6a1e;
+    position: absolute;
+    top: 160;
+    right: 70;
+    left: 70;
+  }
+  .trustedby {
+    background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    text-shadow: 3px 3px 3px #8c6a1e;
+  }
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    padding: 10px 30px 30px 50px;
+  }
+  .farsadlogo,
+  .dionyxlogo,
+  .sujimotologo,
+  .greymenlogo,
+  .unicologo,
+  .didilogo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+  }
+  .contactsection {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  .letsworktogether {
+    background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px 0px 0px 50px;
+    text-shadow: 1px 1px 1px #8c6a1e;
+  }
+  .letsworktogetherintro {
+    color: antiquewhite;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px #8c6a1e;
+    padding: 30px 0px 0px 50px;
+  }
+  .socialmediasection {
+    padding: 10px 0px 0px 0px;
+  }
+  .emaillink,
+  .instagramlink,
+  .telephonelink {
+    text-decoration: none;
+  }
+  .instagramlogo,
+  .emaillogo,
+  .telephonelogo {
+    color: #8c6a1e;
+  }
+  .emailtext,
+  .telephonetext,
+  .instagramtext {
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px #8c6a1e;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px 5px 10px;
+  }
+  .instagram,
+  .email,
+  .telephone {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    column-gap: 50px;
+    padding: 10px 20px 10px 20px;
+    margin: 15px auto 10px auto;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #242423;
+    box-shadow: 2px 2px 2px 2px#8c6a1e;
+  }
+  .instagram:hover,
+  .email:hover,
+  .telephone:hover {
+    background-color: #d4af37;
+    cursor: pointer;
+  }
+  .footer {
+    color: #797977;
+    background-color: #1c1c1b;
+    padding: 10px 0px 10px 70px;
+    word-spacing: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .all {
+    padding: 0px 0px 0px 30px;
+  }
+}
