@@ -368,7 +368,10 @@ export default function Home() {
                 <div className={styles.emailtext}>Samseojie@gmail.com</div>
               </div>
             </Link>
-            <Link href="" className={styles.instagramlink}>
+            <Link
+              href="https://www.instagram.com/houseof_calidad?igsh=ZTEzMzFzN2U2MGx0"
+              className={styles.instagramlink}
+            >
               <div className={styles.instagram}>
                 <InstagramLogoIcon
                   className={styles.instagramlogo}
