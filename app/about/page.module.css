@@ -6,6 +6,9 @@ body {
 .general {
   width: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 .firstbackground {
   display: none;
 }

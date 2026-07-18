@@ -137,7 +137,10 @@ export default function Home() {
             {" "}
             <button className={styles.viewourwork}>VIEW OUR WORK</button>
           </Link>
-          <div className={styles.downarrow}>⌵</div>
+          <Link href="#ourwork">
+            {" "}
+            <div className={styles.downarrow}>⌵</div>
+          </Link>
         </div>
       </div>
       <div className={styles.thirdbackground}>
