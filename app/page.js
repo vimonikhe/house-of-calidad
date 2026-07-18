@@ -137,7 +137,7 @@ export default function Home() {
             {" "}
             <button className={styles.viewourwork}>VIEW OUR WORK</button>
           </Link>
-          <Link href="#ourwork">
+          <Link className={styles.arrow} href="#ourwork">
             {" "}
             <div className={styles.downarrow}>⌵</div>
           </Link>

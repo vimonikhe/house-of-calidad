@@ -146,10 +146,14 @@ html {
   color: antiquewhite;
   border: none;
 }
+.arrow {
+  text-decoration: none;
+}
 .downarrow {
   color: antiquewhite;
   font-size: 30px;
   animation: floatone 1.5s ease-in-out infinite;
+  text-decoration: none;
 }
 @keyframes floatone {
   0% {
