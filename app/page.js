@@ -51,7 +51,7 @@ export default function Home() {
           <Link href="#whatwedo" className={styles.services}>
             SERVICES
           </Link>
-          <Link href="/myworks" className={styles.projects}>
+          <Link href="/my-works" className={styles.projects}>
             PROJECTS
           </Link>
           <Link href="#contact" className={styles.contact}>
@@ -102,7 +102,7 @@ export default function Home() {
                 SERVICES
               </a>
               <a
-                href="/myworks"
+                href="/my-works"
                 className={styles.projects2}
                 onClick={() => Setmobilemenu(false)}
               >
@@ -238,18 +238,21 @@ export default function Home() {
           </div>
         </div>
         <div id="ourwork" className={styles.ourwork}>
-          <Link className={styles.exploreourworks} href="/myworks">
+          <Link className={styles.exploreourworks} href="/my-works">
             EXPLORE OUR WORKS
           </Link>
           <div className={styles.workswrapper}>
-            <div className={styles.realestatework}>
-              <Building2
-                className={styles.realestateworkicon}
-                size={40}
-                strokeWidth={1.5}
-              />
-              <div className={styles.realestatetext}>REAL ESTATE</div>
-            </div>
+            <Link href="/my-works#realestate">
+              {" "}
+              <div className={styles.realestatework}>
+                <Building2
+                  className={styles.realestateworkicon}
+                  size={40}
+                  strokeWidth={1.5}
+                />
+                <div className={styles.realestatetext}>REAL ESTATE</div>
+              </div>
+            </Link>
             <div className={styles.fashionwork}>
               <Shirt
                 className={styles.fashionworkicon}
