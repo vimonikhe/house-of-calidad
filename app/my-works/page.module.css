@@ -107,9 +107,9 @@ html {
 }
 .every {
   color: antiquewhite;
-  padding: 60px 0px 50px 0px;
+  padding: 40px 0px 50px 0px;
   font-family: var(--font-cormorant);
-  font-size: 18px;
+  font-size: 20px;
   text-shadow: 3px 3px 3px #8c6a1e;
   line-height: 1.5;
 }

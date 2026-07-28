@@ -341,6 +341,10 @@ export default function Home() {
           </Swiper>
         </div>
       </div>
+      <footer className={styles.footer}>
+        © 2026 House of Calidad{" "}
+        <span className={styles.all}>ALL RIGHT RESERVED</span>
+      </footer>
     </div>
   );
 }
