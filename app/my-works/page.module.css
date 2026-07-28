@@ -259,6 +259,16 @@ html {
   line-height: 1.5;
   text-shadow: 2px 2px 2px #8c6a1e;
 }
+.footer {
+  color: #797977;
+  background-color: #1c1c1b;
+  padding: 10px 0px 10px 10px;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+.all {
+  padding-left: 20px;
+}
 
 @media (min-width: 1024px) {
   body {
@@ -498,5 +508,16 @@ html {
     font-family: var(--font-cormorant);
     line-height: 1.5;
     text-shadow: 2px 2px 2px #8c6a1e;
+  }
+  .footer {
+    color: #797977;
+    background-color: #1c1c1b;
+    padding: 10px 0px 10px 70px;
+    word-spacing: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .all {
+    padding: 0px 0px 0px 30px;
   }
 }
