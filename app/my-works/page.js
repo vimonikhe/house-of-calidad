@@ -200,7 +200,10 @@ export default function Home() {
                   poster="/realestate/sujimoto.jpg"
                   className={styles.sujimotovideo}
                 >
-                  <source src="/realestate/sujimoto.MP4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dmhvi3mwp/video/upload/v1785247216/sujimoto_vunyxj.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div className={styles.sujimotoheading}>SUJIMOTO GROUP</div>
                 <div className={styles.sujimotointro}>
@@ -218,7 +221,10 @@ export default function Home() {
                   poster="/realestate/cosgrove.jpg"
                   className={styles.cosgrovevideo}
                 >
-                  <source src="/realestate/cosgrove.MP4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dmhvi3mwp/video/upload/v1785246559/cosgrove_gwiiah.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div className={styles.cosgroveheading}>COSGROVE AFRICA</div>
                 <div className={styles.cosgroveintro}>
@@ -234,7 +240,10 @@ export default function Home() {
                   poster="/realestate/farsad.jpg"
                   className={styles.farsadvideo}
                 >
-                  <source src="/realestate/farsad.MP4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dmhvi3mwp/video/upload/v1785246895/farsad_pimcl4.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div className={styles.farsadheading}>
                   FARSAD CONCEPTS & SOLUTIONS NIGERIA LIMITED
@@ -254,7 +263,10 @@ export default function Home() {
                   poster="/realestate/panama.jpg"
                   className={styles.panamavideo}
                 >
-                  <source src="/realestate/panama.MP4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dmhvi3mwp/video/upload/v1785247020/panama_ojg289.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div className={styles.panamaheading}> THE PANAMA ABUJA</div>
                 <div className={styles.panamaintro}>
@@ -268,9 +280,12 @@ export default function Home() {
                   controls
                   width="200"
                   poster="/realestate/unico.jpg"
-                  className={styles.panamavideo}
+                  className={styles.unicovideo}
                 >
-                  <source src="/realestate/unico.MP4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dmhvi3mwp/video/upload/v1785247308/unico_udu1lu.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div className={styles.unicoheading}> UNICO EMPIRE LIMITED</div>
                 <div className={styles.unicointro}>
@@ -286,7 +301,10 @@ export default function Home() {
                   poster="/realestate/farsaad.jpg"
                   className={styles.farsaadvideo}
                 >
-                  <source src="/realestate/farsaad.MP4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dmhvi3mwp/video/upload/v1785246804/farsaad_q2od0p.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div className={styles.farsaadheading}>
                   FARSAD CONCEPTS & SOLUTIONS NIGERIA LIMITED
@@ -306,7 +324,10 @@ export default function Home() {
                   poster="/realestate/unicoempire.jpg"
                   className={styles.unicoempirevideo}
                 >
-                  <source src="/realestate/unicoempire.MP4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dmhvi3mwp/video/upload/v1785248055/unicoempire_gyn9s7.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div className={styles.unicoempireheading}>
                   {" "}

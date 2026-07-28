@@ -73,6 +73,7 @@ html {
   row-gap: 1px;
   border-radius: 10px;
   padding: 5px 0 5px 0;
+  font-family: var(--font-cormorant);
 }
 .secondbackground {
   background: #0f0f0e;
@@ -93,7 +94,7 @@ html {
 }
 .ourwork {
   color: antiquewhite;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
   font-size: 30px;
   word-spacing: 5px;
   text-shadow: 2px 2px 2px #8c6a1e;
@@ -102,12 +103,12 @@ html {
   background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
 }
 .every {
   color: antiquewhite;
   padding: 60px 0px 50px 0px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
   font-size: 18px;
   text-shadow: 3px 3px 3px #8c6a1e;
   line-height: 1.5;
@@ -129,9 +130,9 @@ html {
   padding: 40px 0px 30px 0px;
   font-size: 18px;
   color: antiquewhite;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  font-family: var(--font-geistmono);
   text-shadow: 5px 5px 5px #8c6a1e;
-  word-spacing: 5px;
 }
 .ourworkimage {
   width: 300px;
@@ -164,7 +165,7 @@ html {
   background: linear-gradient(90deg, #8c6a1e, #ecc546, #f1d377, #ecdaa1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
   font-size: 30px;
   text-shadow: 2px 2px 2px #8c6a1e;
   text-align: center;
@@ -229,7 +230,7 @@ html {
   background: linear-gradient(90deg, #8c6a1e, #ecc546, #f1d377, #ecdaa1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
   font-size: 15px;
   text-shadow: 2px 2px 2px #8c6a1e;
   padding: 20px 0px 20px 0px;
@@ -254,7 +255,7 @@ html {
 .farsaadintro {
   color: antiquewhite;
   font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
   line-height: 1.5;
   text-shadow: 2px 2px 2px #8c6a1e;
 }
@@ -282,7 +283,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     column-gap: 80px;
-    padding: 0px 30px 10px 30px;
+    padding: 0px 10px 10px 30px;
     background-color: black;
     height: 80px;
     animation-delay: 0.8s;
@@ -313,6 +314,7 @@ html {
     text-decoration: none;
     color: antiquewhite;
     text-shadow: 2px 2px 2px #8c6a1e;
+    font-family: var(--font-cormorant);
   }
   .workhome:hover,
   .workrealestate:hover,
@@ -336,22 +338,23 @@ html {
   }
   .ourwork {
     color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     font-size: 40px;
     word-spacing: 5px;
     text-shadow: 2px 2px 2px #8c6a1e;
+    font-family: var(--font-cormorant);
   }
   .work {
     background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-cormorant);
   }
   .every {
     color: antiquewhite;
     padding: 30px 0px 20px 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-family: var(--font-cormorant);
+    font-size: 20px;
     text-shadow: 3px 3px 3px #8c6a1e;
     width: 400px;
     line-height: 1.5;
@@ -373,7 +376,7 @@ html {
     padding: 20px 0px 20px 0px;
     font-size: 20px;
     color: antiquewhite;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-geistmono);
     text-shadow: 5px 5px 5px #8c6a1e;
     word-spacing: 5px;
   }
@@ -381,7 +384,7 @@ html {
     width: 600px;
     height: 350px;
     animation: float 4s ease-in-out infinite;
-    object-fit: contain;
+    object-fit: cover;
   }
   @keyframes float {
     0% {
@@ -404,7 +407,7 @@ html {
     background: linear-gradient(90deg, #8c6a1e, #ecc546, #f1d377, #ecdaa1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-cormorant);
     font-size: 35px;
     text-shadow: 2px 2px 2px #8c6a1e;
     text-align: center;
@@ -467,7 +470,7 @@ html {
     background: linear-gradient(90deg, #8c6a1e, #ecc546, #f1d377, #ecdaa1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-cormorant);
     font-size: 20px;
     text-shadow: 2px 2px 2px #8c6a1e;
     padding: 20px 0px 20px 0px;
@@ -492,7 +495,7 @@ html {
   .farsaadintro {
     color: antiquewhite;
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-cormorant);
     line-height: 1.5;
     text-shadow: 2px 2px 2px #8c6a1e;
   }

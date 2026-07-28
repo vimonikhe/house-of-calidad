@@ -72,6 +72,7 @@ html {
   row-gap: 1px;
   border-radius: 10px;
   padding: 5px 0 5px 0;
+  font-family: var(--font-cormorant);
 }
 .secondbackground {
   background: url("/secondbackground.jpg");
@@ -101,7 +102,7 @@ html {
 .wedont {
   color: rgb(233, 233, 230);
   font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-bodoni);
   padding: 0px 0 50px 0;
   word-spacing: 10;
   text-shadow: 5px 5px 5px #8c6a1e;
@@ -134,7 +135,7 @@ html {
   padding: 20px 0px 30px 0px;
   font-size: 20px;
   color: antiquewhite;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-inter);
   text-shadow: 5px 5px 5px #8c6a1e;
 }
 .viewourwork {
@@ -144,6 +145,7 @@ html {
   background-color: black;
   box-shadow: 0 0 8px #8c6a1e;
   color: antiquewhite;
+  font-family: var(--font-cormorant);
   border: none;
 }
 .arrow {
@@ -178,7 +180,7 @@ html {
 }
 .aboutusheading {
   font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-cormorant);
   background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -189,14 +191,15 @@ html {
 .houseofcalidadintro {
   font-size: 30;
   color: antiquewhite;
+  font-family: var(--font-bodoni);
   text-shadow: 5px 5px 5px #8c6a1e;
   text-align: left;
 }
 .aboutparagraph {
   color: antiquewhite;
   width: 100%;
-  font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-family: var(--font-cormorant);
   padding: 10px 0px 20px 0px;
   line-height: 1.5;
   text-shadow: 5px 5px 5px #8c6a1e;
@@ -205,6 +208,7 @@ html {
   margin: 10px 0px 20px 0px;
   padding: 10px 20px 10px 20px;
   font-size: 15px;
+  font-family: var(--font-cormorant);
   background-color: black;
   box-shadow: 0 0 10px #8c6a1e;
   color: antiquewhite;
@@ -231,14 +235,14 @@ html {
 }
 .fourthbackground {
   background: linear-gradient(rgb(16, 16, 14), rgb(0, 0, 0));
-  height: 3150px;
+  height: 3200px;
   padding: 30px 10px 10px 20px;
   width: 100%;
   box-sizing: border-box;
 }
 .whatwedo {
   font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-cormorant);
   background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -287,6 +291,7 @@ html {
   line-height: 1.4;
   font-size: 16px;
   text-shadow: 2px 2px 2px #8c6a1e;
+  font-family: var(--font-cormorant);
   margin-top: 12px;
 }
 .ourwork {
@@ -300,7 +305,7 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-cormorant);
   text-shadow: 1px 1px 1px #8c6a1e;
   text-align: center;
 }
@@ -482,6 +487,7 @@ html {
   right: 50;
   left: 50;
   text-shadow: 2px 2px 2px #8c6a1e;
+  font-family: var(--font-cormorant);
 }
 .realestatetext {
   color: antiquewhite;
@@ -490,6 +496,7 @@ html {
   right: 40;
   left: 40;
   text-shadow: 2px 2px 2px #8c6a1e;
+  font-family: var(--font-cormorant);
 }
 .brandfilmtext {
   color: antiquewhite;
@@ -497,6 +504,7 @@ html {
   top: 210;
   right: 40;
   left: 40;
+  font-family: var(--font-cormorant);
 }
 .realestateworkicon,
 .commercialworkicon,
@@ -516,7 +524,7 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
   text-align: center;
   padding: 30px 0px 30px 0px;
   text-shadow: 3px 3px 3px #8c6a1e;
@@ -545,18 +553,18 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-cormorant);
   padding: 10px 0px 0px 10px;
   text-shadow: 1px 1px 1px #8c6a1e;
 }
 .letsworktogetherintro {
   color: antiquewhite;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
   width: 100%;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 2px 2px 2px #8c6a1e;
+  font-family: var(--font-cormorant);
+  text-shadow: 4px 4px 4px #8c6a1e;
   padding: 10px 0px 20px 0px;
 }
 .socialmediasection {
@@ -578,7 +586,7 @@ html {
   color: antiquewhite;
   text-shadow: 2px 2px 2px #8c6a1e;
   font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-bodoni);
   padding: 5px 10px 5px 10px;
 }
 .instagram,
@@ -651,8 +659,8 @@ html {
     display: flex;
     flex-wrap: wrap;
     column-gap: 70px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-family: var(--font-cormorant);
+    font-weight: bolder;
     padding: 35px 40px 10px 10px;
   }
   .home,
@@ -679,7 +687,7 @@ html {
   .secondbackground {
     background: url("/secondbackground.jpg");
     background-size: cover;
-    height: 470px;
+    height: 500px;
     backdrop-filter: blur(12px);
     text-align: center;
   }
@@ -697,7 +705,7 @@ html {
   .wedont {
     color: rgb(233, 233, 230);
     font-size: 30px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-bodoni);
     padding: 40px 0 30px 0;
     word-spacing: 10;
     text-shadow: 5px 5px 5px #8c6a1e;
@@ -731,12 +739,14 @@ html {
     font-size: 20px;
     color: antiquewhite;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-inter);
     text-shadow: 5px 5px 5px #8c6a1e;
   }
   .viewourwork {
     margin: 10px 0px 20px 0px;
     padding: 10px 15px 10px 15px;
     font-size: 15px;
+    font-family: var(--font-cormorant);
     background-color: black;
     box-shadow: 0 0 8px #8c6a1e;
     color: antiquewhite;
@@ -765,7 +775,7 @@ html {
   }
   .thirdbackground {
     background-color: rgb(11, 11, 9);
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 100px;
@@ -776,7 +786,7 @@ html {
   }
   .aboutusheading {
     font-size: 25px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-cormorant);
     background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -788,12 +798,13 @@ html {
     font-size: 30;
     color: antiquewhite;
     text-shadow: 5px 5px 5px #8c6a1e;
+    font-family: var(--font-bodoni);
   }
   .aboutparagraph {
     color: antiquewhite;
     width: 400px;
-    font-size: 18px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: var(--font-cormorant);
     padding: 10px 0px 20px 0px;
     line-height: 1.5;
     text-shadow: 5px 5px 5px #8c6a1e;
@@ -802,6 +813,7 @@ html {
     margin: 10px 0px 20px 0px;
     padding: 10px 20px 10px 20px;
     font-size: 15px;
+    font-family: var(--font-cormorant);
     background-color: black;
     box-shadow: 0 0 10px #8c6a1e;
     color: antiquewhite;
@@ -837,7 +849,7 @@ html {
   }
   .whatwedo {
     font-size: 25px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-cormorant);
     background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -865,8 +877,9 @@ html {
   .creativedirectionwrap,
   .socialmediacampaignswrap,
   .dronecinematographywrap,
-  .videoeditingiconwrap {
+  .videoeditingwrap {
     text-align: center;
+    font-family: var(--font-cormorant);
   }
   .brandfilms,
   .commercialphotography,
@@ -889,7 +902,7 @@ html {
     background-clip: text;
     font-size: 22px;
     font-weight: bold;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-cormorant);
     text-shadow: 1px 1px 1px #8c6a1e;
   }
   .exploreourworks:hover {
@@ -1045,6 +1058,7 @@ html {
     right: 50;
     left: 50;
     text-shadow: 2px 2px 2px #8c6a1e;
+    font-family: var(--font-cormorant);
   }
   .realestatetext {
     color: antiquewhite;
@@ -1053,6 +1067,7 @@ html {
     right: 40;
     left: 40;
     text-shadow: 2px 2px 2px #8c6a1e;
+    font-family: var(--font-cormorant);
   }
   .brandfilmtext {
     color: antiquewhite;
@@ -1060,6 +1075,7 @@ html {
     top: 210;
     right: 40;
     left: 40;
+    font-family: var(--font-cormorant);
   }
   .realestateworkicon,
   .commercialworkicon,
@@ -1079,7 +1095,7 @@ html {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-cormorant);
     text-align: center;
     padding: 30px 0px 30px 0px;
     text-shadow: 3px 3px 3px #8c6a1e;
@@ -1112,17 +1128,17 @@ html {
     background-clip: text;
     font-size: 22px;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-cormorant);
     padding: 50px 0px 0px 50px;
     text-shadow: 1px 1px 1px #8c6a1e;
   }
   .letsworktogetherintro {
     color: antiquewhite;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     width: 500px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 2px 2px 2px #8c6a1e;
+    font-family: var(--font-cormorant);
+    text-shadow: 4px 4px 4px #8c6a1e;
     padding: 30px 0px 0px 50px;
   }
   .socialmediasection {
@@ -1144,7 +1160,7 @@ html {
     color: antiquewhite;
     text-shadow: 2px 2px 2px #8c6a1e;
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-bodoni);
     padding: 5px 10px 5px 10px;
   }
   .instagram,

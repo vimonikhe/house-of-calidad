@@ -350,7 +350,11 @@ export default function Home() {
             </div>
           </div>
           <div id="contact" className={styles.socialmediasection}>
-            <Link href="tel:09053389939" className={styles.telephonelink}>
+            <Link
+              href="tel:09053389939"
+              target="_blank"
+              className={styles.telephonelink}
+            >
               {" "}
               <div className={styles.telephone}>
                 <Phone
@@ -363,6 +367,7 @@ export default function Home() {
             </Link>
             <Link
               href="mailto:samseojie@gmail.com"
+              target="_blank"
               className={styles.emaillink}
             >
               <div className={styles.email}>
@@ -376,6 +381,7 @@ export default function Home() {
             </Link>
             <Link
               href="https://www.instagram.com/houseof_calidad?igsh=ZTEzMzFzN2U2MGx0"
+              target="_blank"
               className={styles.instagramlink}
             >
               <div className={styles.instagram}>

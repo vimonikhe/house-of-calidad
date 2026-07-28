@@ -71,6 +71,7 @@ html {
   row-gap: 1px;
   border-radius: 10px;
   padding: 5px 0 5px 0;
+  font-family: var(--font-cormorant);
 }
 .secondbackground {
   background-color: rgb(11, 11, 9);
@@ -98,6 +99,7 @@ html {
   line-height: 1.3;
   padding: 10px 10px 10px 0px;
   font-weight: bold;
+  font-family: var(--font-cormorant);
 }
 .story {
   background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
@@ -108,6 +110,7 @@ html {
   border-image: linear-gradient(to right, #8c6a1e, #d4af37, #f2d16b, #d4af37) 1;
   padding-bottom: 5px;
   font-weight: bolder;
+  font-family: var(--font-cormorant);
 }
 .paragraphone,
 .paragraphtwo,
@@ -116,7 +119,7 @@ html {
 .paragraphfive {
   color: antiquewhite;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-cormorant);
   line-height: 1.5;
   padding: 20px 10px 0px 0px;
   text-shadow: 5px 5px 5px #8c6a1e;
@@ -126,7 +129,7 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-bodoni);
   line-height: 1.5;
   padding: 20px 10px 0px 0px;
   text-shadow: 3px 3px 3px #8c6a1e;
@@ -175,11 +178,13 @@ html {
   text-align: center;
   text-shadow: 2px 2px 2px #8c6a1e;
   padding-right: 15px;
+  font-family: var(--font-cormorant);
 }
 .aerial {
   color: antiquewhite;
   text-align: center;
   text-shadow: 2px 2px 2px #8c6a1e;
+  font-family: var(--font-cormorant);
 }
 .mvv {
   padding: 30px 10px 30px 10px;
@@ -225,11 +230,13 @@ html {
   padding: 10px 0 0 0;
   color: antiquewhite;
   text-align: center;
+  font-family: var(--font-cormorant);
 }
 .ourvalues {
   font-size: 22px;
   color: antiquewhite;
   text-align: center;
+  font-family: var(--font-cormorant);
 }
 .mvvspan {
   background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
@@ -255,8 +262,8 @@ html {
 .visionstatement {
   color: antiquewhite;
   text-shadow: 3px 3px 3px #8c6a1e;
-  font-size: 16px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-family: var(--font-cormorant);
   padding: 20px 20px 10px 20px;
   line-height: 1.5;
 }
@@ -286,6 +293,8 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 15px;
+  font-family: var(--font-bodoni);
+  text-shadow: 3px 3px 3px #8c6a1e;
 }
 .firstvaluestatement,
 .secondvaluestatement,
@@ -295,6 +304,7 @@ html {
   color: antiquewhite;
   width: 170px;
   text-shadow: 3px 3px 3px #8c6a1e;
+  font-family: var(--font-cormorant);
 }
 .letssession {
   display: block;
@@ -305,7 +315,7 @@ html {
 .letscreate {
   color: antiquewhite;
   font-size: 13px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-cormorant);
   word-spacing: 2px;
   padding-right: 20px;
 }
@@ -323,13 +333,13 @@ html {
   -webkit-text-fill-color: transparent;
   font-size: 13px;
   padding-left: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-cormorant);
   text-align: right;
 }
 .vst {
   text-align: right;
   color: antiquewhite;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-inter);
   font-size: 13px;
 }
 .hocvst {
@@ -390,7 +400,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     column-gap: 70px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-cormorant);
     font-weight: bold;
     padding: 35px 40px 10px 10px;
   }
@@ -417,7 +427,7 @@ html {
 
   .secondbackground {
     background-color: rgb(11, 11, 9);
-    height: 1400px;
+    height: 1600px;
     padding: 40px 0px 20px 40px;
   }
   @keyframes slideup {
@@ -444,6 +454,7 @@ html {
     line-height: 1.3;
     padding: 10px 10px 10px 0px;
     font-weight: bold;
+    font-family: var(--font-cormorant);
   }
   .story {
     background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
@@ -455,6 +466,7 @@ html {
       1;
     padding-bottom: 5px;
     font-weight: bolder;
+    font-family: var(--font-cormorant);
   }
   .paragraphone,
   .paragraphtwo,
@@ -462,8 +474,8 @@ html {
   .paragraphfour,
   .paragraphfive {
     color: antiquewhite;
-    font-size: 18px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: var(--font-cormorant);
     width: 500px;
     line-height: 1.5;
     padding: 20px 10px 0px 0px;
@@ -474,7 +486,7 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-bodoni);
     width: 500px;
     line-height: 1.5;
     padding: 20px 10px 0px 0px;
@@ -522,11 +534,13 @@ html {
     text-shadow: 2px 2px 2px #8c6a1e;
     border-right: 2px solid #8c6a1e;
     padding-right: 15px;
+    font-family: var(--font-cormorant);
   }
   .aerial {
     color: antiquewhite;
     text-align: center;
     text-shadow: 2px 2px 2px #8c6a1e;
+    font-family: var(--font-cormorant);
   }
   .mvv {
     display: flex;
@@ -574,16 +588,19 @@ html {
     padding: 10px 0 0 0;
     color: antiquewhite;
     text-align: center;
+    font-family: var(--font-cormorant);
   }
   .ourvalues {
     font-size: 22px;
     color: antiquewhite;
     text-align: center;
+    font-family: var(--font-cormorant);
   }
   .mvvspan {
     background: linear-gradient(90deg, #8c6a1e, #d4af37, #f2d16b, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: var(--font-cormorant);
   }
   .lines {
     width: 100px;
@@ -604,8 +621,8 @@ html {
   .visionstatement {
     color: antiquewhite;
     text-shadow: 3px 3px 3px #8c6a1e;
-    font-size: 16px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: var(--font-cormorant);
     padding: 20px 20px 10px 20px;
     line-height: 1.5;
   }
@@ -634,6 +651,7 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 20px;
+    font-family: var(--font-bodoni);
   }
   .firstvaluestatement,
   .secondvaluestatement,
@@ -643,6 +661,7 @@ html {
     color: antiquewhite;
     width: 250px;
     text-shadow: 3px 3px 3px #8c6a1e;
+    font-family: var(--font-cormorant);
   }
   .letssession {
     display: flex;
@@ -653,7 +672,7 @@ html {
   .letscreate {
     color: antiquewhite;
     font-size: 18;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-cormorant);
     word-spacing: 5px;
   }
   .extraordinary {
@@ -669,11 +688,11 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-cormorant);
   }
   .vst {
     color: antiquewhite;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-inter);
   }
   .hocvst {
     border-left: solid 2px;
@@ -688,6 +707,8 @@ html {
     padding: 10px 0px 10px 70px;
     word-spacing: 5px;
     text-align: center;
+    font-size: 15px;
+    font-family: var(--font-geistmono);
   }
   .all {
     padding: 0px 0px 0px 30px;
